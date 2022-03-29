@@ -1,1 +1,2 @@
-# EarthBattle-Web
+# BattleEarth-Web
+BattleEarthのウェブサイト
