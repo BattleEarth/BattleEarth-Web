@@ -1,3 +1,3 @@
 # BattleEarth-Web
 BattleEarthのウェブサイト
-<h4>http://battle-earth.ml
+<h4>https://www.battle-earth.ml/
