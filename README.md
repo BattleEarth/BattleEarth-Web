@@ -1,3 +1,3 @@
-# BattleEarth-Web<h3>[クリックして表示](https://www.battle-earth.net/)
+# BattleEarth-Web<h3>https://www.battle-earth.net/
 BattleEarthのウェブサイト
 
