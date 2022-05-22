@@ -1,4 +1,4 @@
 # BattleEarth-Web
 🌐 BattleEarthのウェブサイト
 
-# www.battle-earth.net
+## www.battle-earth.net
