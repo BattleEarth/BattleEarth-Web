@@ -1,0 +1,687 @@
+
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <title>Battle Earth | Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <meta name="description" content="Battle Earthは日本のEarth Minecraftサーバーです。Discordサーバーに参加しましょう。">
+    <meta name="format-detection" content="telephone=no">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Battle Earth | Home">
+    <meta property="og:description" content="Battle Earthは日本のEarth Minecraftサーバーです。Discordサーバーに参加しましょう。">
+    <meta property="og:url" content="https://www.battle-earth.net">
+    <meta property="og:site_name" content="BattleEarth | Home">
+    <meta property="og:image" content=""> <!-- 後で追加 -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="apple-mobile-web-app-title" content="Battle Earth | Home">
+    <meta name="application-name" content="BattleEarth | Home">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#000000">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <link rel="apple-touch-icon" href="pic/icon-s180.png" sizes="180x180">
+    <link rel="shortcut icon" href="pic/icon-s48.png">
+    <link rel="canonical" href="https://www.battle-earth.net">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+
+    <script src="vendors.bundle.js" defer></script>
+    <script src="runtime.bundle.js" defer></script>
+    <script src="app.bundle.js" defer></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XGNBGZX78Q"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        window.gtagId = 'G-XGNBGZX78Q';
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', window.gtagId);
+    </script>
+    <link rel="manifest" href="manifest.json">
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/sw.js');
+            });
+        }
+    </script>
+    <meta name='robots' content='max-image-preview:large' />
+    <link rel='dns-prefetch' href='//s.w.org' />
+</head>
+
+<body id="top" class="is-fixed">
+<div class="l-loading" data-loading="container">
+    <div class="l-loading__loader" data-loading="loader">
+        <div class="l-loading__border">
+            <div class="l-loading__core"></div>
+        </div>
+    </div>
+</div>
+<div class="l-global-header" data-global-header>
+    <header class="l-header" data-header>
+        <h1 class="l-header__logo">
+            <a href="https://www.battle-earth.net">
+                <img decoding="async" src="pic/icon-s66.png" alt="Digital Connect" width="66" height="66" oncontextmenu="return false;">
+            </a>
+        </h1>
+    </header>
+    <nav class="l-nav" data-nav>
+        <div class="l-nav__bg" data-nav-bg></div>
+        <ul class="l-nav__list">
+            <li class="l-nav__item" data-nav-item>
+                <a href="https://map.battle-earth.net" class="l-nav__link" data-nav-link="map">
+                    <div class="l-nav__text-wrap" data-clone-text="container">
+                        <p class="l-nav__text" data-clone-text="text">
+                            Map
+                        </p>
+                    </div>
+                </a>
+                <div class="l-nav__mask" data-nav-mask></div>
+            </li>
+            <li class="l-nav__item" data-nav-item>
+                <a href="https://www.battle-earth.net/docs/" class="l-nav__link" data-nav-link="docs">
+                    <div class="l-nav__text-wrap" data-clone-text="container">
+                        <p class="l-nav__text" data-clone-text="text">
+                            Docs
+                        </p>
+                    </div>
+                </a>
+                <div class="l-nav__mask" data-nav-mask></div>
+            </li>
+            <li class="l-nav__item" data-nav-item>
+                <a href="https://store.battle-earth.net/" class="l-nav__link" data-nav-link="docs">
+                    <div class="l-nav__text-wrap" data-clone-text="container">
+                        <p class="l-nav__text" data-clone-text="text">
+                            Premium
+                        </p>
+                    </div>
+                </a>
+                <div class="l-nav__mask" data-nav-mask></div>
+            </li>
+            <li class="l-nav__item" data-nav-item>
+                <a href="https://status.battle-earth.net" class="l-nav__link" data-nav-link="recruit">
+                    <div class="l-nav__text-wrap" data-clone-text="container">
+                        <p class="l-nav__text" data-clone-text="text">
+                            Status
+                        </p>
+                    </div>
+                </a>
+                <div class="l-nav__mask" data-nav-mask></div>
+            </li>
+            <li class="l-nav__item" data-nav-item>
+                <a href="https://www.battle-earth.net/contact" class="l-nav__link" data-nav-link="recruit">
+                    <div class="l-nav__text-wrap" data-clone-text="container">
+                        <p class="l-nav__text" data-clone-text="text">
+                            Contact
+                        </p>
+                    </div>
+                </a>
+                <div class="l-nav__mask" data-nav-mask></div>
+            </li>
+            <li class="l-nav__item-contact l-nav-contact" data-nav-contact>
+                <a href="https://discord.com/invite/dnZ3z8beW2" class="l-nav-contact__link" data-nav-link="join">
+                    <p class="l-nav-contact__text">
+                        Discord
+                    </p>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="l-humb" data-humb>
+        <button class="l-humb__button" aria-label="メニュー開閉" aria-haspopup="true">
+            <div class="l-humb__icon">
+                <span class="l-humb__bar"></span>
+                <span class="l-humb__bar"></span>
+            </div>
+        </button>
+    </div>
+</div>
+
+
+
+<div class="wrapper" data-barba="wrapper">
+    <main class="p-home page" data-barba="container" data-barba-namespace="home">
+        <div class="p-home-bg" data-home-bg="target">
+            <div class="p-home-bg__image">
+                <picture>
+                    <source srcset="pic/background-s.webp" media="(max-width: 768px)">
+                    <img decoding="async" loading="lazy" src="pic/background-s.webp" alt="" role="none" width="1216" height="684" class="is-fit" oncontextmenu="return false;">
+                </picture>
+            </div>
+        </div>
+        <div class="l-bg l-bg--left"></div>
+        <div class="l-bg l-bg--right"></div>
+
+        <div data-home-bg="threshold">
+            <section class="p-home-mv">
+                <div class="p-home-mv__body">
+                    <div class="p-home-mv__titles" data-home-mv="titles">
+                        <div class="p-home-mv__title-box">
+                            <div class="p-home-mv__title">
+                                <span class="p-home-mv__title-split is-str-c-1">B</span>
+                            </div>
+                            <div class="p-home-mv__title">
+                                <span class="p-home-mv__title-split is-str-o-1">a</span>
+                            </div>
+                            <div class="p-home-mv__title">
+                                <span class="p-home-mv__title-split is-str-n-1">t</span>
+                            </div>
+                            <div class="p-home-mv__title">
+                                <span class="p-home-mv__title-split is-str-n-2">t</span>
+                            </div>
+                            <div class="p-home-mv__title">
+                                <span class="p-home-mv__title-split is-str-e-1">l</span>
+                            </div>
+                            <div class="p-home-mv__title">
+                                <span class="p-home-mv__title-split is-str-c-2">e</span>
+                            </div>
+                            <div class="p-home-mv__title is-space">
+                                <span class="p-home-mv__title-split is-str-t-1">E</span>
+                            </div>
+                            <div class="p-home-mv__title">
+                                <span class="p-home-mv__title-split is-str-t-2">a</span>
+                            </div>
+                            <div class="p-home-mv__title">
+                                <span class="p-home-mv__title-split is-str-o-2">r</span>
+                            </div>
+                            <div class="p-home-mv__title">
+                                <span class="p-home-mv__title-split is-str-quot-1">t</span>
+                            </div>
+                            <div class="p-home-mv__title">
+                                <span class="p-home-mv__title-split is-str-n-3">h</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-home-mv__ip">
+                    <button class="copy" onclick="location.href='https://discord.com/invite/dnZ3z8beW2'">
+                        Click to Join
+                    </button></div>
+                <div class="p-home-mv__scroll" data-home-mv="scroll">
+                </div>
+            </section>
+
+            <section class="p-home-about">
+                <div class="p-home-about__heading-en-bg" data-parallax data-parallax-speed="-0.2">
+                    <div class="c-heading-en-bg" data-scroll>
+                        <div class="c-heading-en-bg__texts" data-split-text data-split-text-type="bg">
+                            HOW JOIN?        </div>
+                    </div>
+                </div>
+                <div class="p-home-about__inner">
+                    <div class="p-home-about__wrap">
+                        <h2 class="p-home-about__body">
+                            Discordのサーバーに参加し、<br>
+                            ユーザー認証をします。IPが<br>
+                            掲載されているチャンネルがあるので<br>
+                            そのIPでサーバーに入ります。
+                        </h2>
+                        <div class="p-home-about__button">
+                            <a class="c-more-button" href="https://discord.com/invite/dnZ3z8beW2">
+                                <div class="c-more-button__inner">
+                                    <p class="c-more-button__text">
+                                        Join Discord            </p>
+                                    <div class="c-more-button__icon">
+                                        <svg class="c-more-button__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.694 5.133">
+                                            <desc>arrow</desc>
+                                            <path class="c-more-button__path" d="M2383.572-1674.29l-.428.46,1.928,1.793h-8.434v.628h8.435l-1.93,1.793.428.46,2.76-2.566Z" transform="translate(-2376.639 1674.29)" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="p-home-service">
+            <div class="p-home-service__heading-en-bg" data-parallax data-parallax-speed="-0.2">
+                <div class="c-heading-en-bg" data-scroll>
+                    <div class="c-heading-en-bg__texts" data-split-text data-split-text-type="bg" id="service">
+                        WHAT DO?        </div>
+                </div>
+            </div>
+            <div class="p-home-service__list">
+                <div class="p-home-service__item p-home-service__item--body">
+                    <h3 class="c-heading-en" data-scroll data-split-text>
+
+                    </h3>
+                    <div class="p-home-service__wrap" data-scroll>
+                        <p class="p-home-service__body">
+                            Battle Earthでは地球のマップで<br>
+                            独自の国を建国し、<br>
+                            領土をコインを集めて買ったり、<br>
+                            TNTキャノンを作り戦争を<br>
+                            したりと様々なことができます。
+                        </p>
+                    </div>
+                </div>
+                <div class="p-home-service__item p-home-service__item--image" data-parallax data-parallax-speed="0.15" data-scroll="mask">
+                    <div class="p-home-service__image-wrap c-mask">
+                        <div class="p-home-service__image" data-parallax data-parallax-speed="-0.15">
+                            <img decoding="async" loading="lazy" src="pic/img.png" alt="" role="none" width="1380" height="774" class="is-fit" oncontextmenu="return false;" onmousedown="return false;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="p-home-leadership">
+            <div class="p-home-leadership__heading-en-bg" data-parallax data-parallax-speed="-0.2">
+                <div class="c-heading-en-bg" data-scroll>
+                    <div class="c-heading-en-bg__texts" data-split-text data-split-text-type="bg" id="staff">
+                        STAFF        </div>
+                </div>
+            </div>
+            <div class="p-home-leadership__wrapper" data-member-slider-container>
+                <div class="p-home-leadership__inner">
+                    <h3 class="c-heading-en" data-scroll data-split-text>
+
+                    </h3>
+                    <div class="p-home-leadership__list swiper-container" data-slider="member" data-scroll="member-list">
+                        <div class="swiper-wrapper">
+                            <archive class="c-member-item swiper-slide" data-scroll-member="item">
+                                <a href="" class="c-member-item__link">
+                                    <div class="c-member-item__thumb-wrap c-mask" data-scroll-member="mask">
+                                        <div class="c-member-item__thumb" data-scroll-member="thumb">
+                                            <img decoding="async" loading="lazy" src="pic/Calmcup411.webp" alt="うーくん" width="1020" height="1360" class="is-fit" oncontextmenu="return false;">
+                                        </div>
+                                    </div>
+                                    <div class="c-member-item__wrap" data-scroll-member="wrap">
+                                        <p class="c-member-item__post">
+                                            OWNER                    </p>
+                                        <div class="c-member-item__names">
+                                            <h3 class="c-member-item__name">
+                                                えれくん                            </h3>
+                                            <p class="c-member-item__name-en">
+                                                E1ectron4                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </archive>
+                            <archive class="c-member-item swiper-slide" data-scroll-member="item">
+                                <a href="" class="c-member-item__link">
+                                    <div class="c-member-item__thumb-wrap c-mask" data-scroll-member="mask">
+                                        <div class="c-member-item__thumb" data-scroll-member="thumb">
+                                            <img decoding="async" loading="lazy" src="pic/myoko_1110.webp" alt="Myoko" width="1020" height="1360" class="is-fit" oncontextmenu="return false;">
+                                        </div>
+                                    </div>
+                                    <div class="c-member-item__wrap" data-scroll-member="wrap">
+                                        <p class="c-member-item__post">
+                                            SERVER OWNER                    </p>
+                                        <div class="c-member-item__names">
+                                            <h3 class="c-member-item__name">
+                                                Myoko                            </h3>
+                                            <p class="c-member-item__name-en">
+                                                Myoko_1110                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </archive>
+                            <archive class="c-member-item swiper-slide" data-scroll-member="item">
+                                <a href="" class="c-member-item__link">
+                                    <div class="c-member-item__thumb-wrap c-mask" data-scroll-member="mask">
+                                        <div class="c-member-item__thumb" data-scroll-member="thumb">
+                                            <img decoding="async" loading="lazy" src="pic/seraimu_.webp" alt="Seraimu" width="1020" height="1360" class="is-fit" oncontextmenu="return false;">
+                                        </div>
+                                    </div>
+                                    <div class="c-member-item__wrap" data-scroll-member="wrap">
+                                        <p class="c-member-item__post">
+                                            DEVELOPER                    </p>
+                                        <div class="c-member-item__names">
+                                            <h3 class="c-member-item__name">
+                                                Seraimu                            </h3>
+                                            <p class="c-member-item__name-en">
+                                                seraimu_                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </archive>
+                            <archive class="c-member-item swiper-slide" data-scroll-member="item">
+                                <a href="" class="c-member-item__link">
+                                    <div class="c-member-item__thumb-wrap c-mask" data-scroll-member="mask">
+                                        <div class="c-member-item__thumb" data-scroll-member="thumb">
+                                            <img decoding="async" loading="lazy" src="pic/RAalpha.webp" alt="owias" width="1020" height="1360" class="is-fit" oncontextmenu="return false;">
+                                        </div>
+                                    </div>
+                                    <div class="c-member-item__wrap" data-scroll-member="wrap">
+                                        <p class="c-member-item__post">
+                                            STAFF                    </p>
+                                        <div class="c-member-item__names">
+                                            <h3 class="c-member-item__name">
+                                                owias                            </h3>
+                                            <p class="c-member-item__name-en">
+                                                RAalpha                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </archive>
+                            <archive class="c-member-item swiper-slide" data-scroll-member="item">
+                                <a href="" class="c-member-item__link">
+                                    <div class="c-member-item__thumb-wrap c-mask" data-scroll-member="mask">
+                                        <div class="c-member-item__thumb" data-scroll-member="thumb">
+                                            <img decoding="async" loading="lazy" src="pic/Fyphen1223.webp" alt="Fyphen" width="1020" height="1360" class="is-fit" oncontextmenu="return false;">
+                                        </div>
+                                    </div>
+                                    <div class="c-member-item__wrap" data-scroll-member="wrap">
+                                        <p class="c-member-item__post">
+                                            STAFF                    </p>
+                                        <div class="c-member-item__names">
+                                            <h3 class="c-member-item__name">
+                                                Fyphen                            </h3>
+                                            <p class="c-member-item__name-en">
+                                                Fyphen1223                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </archive>
+                            <archive class="c-member-item swiper-slide" data-scroll-member="item">
+                                <a href="" class="c-member-item__link">
+                                    <div class="c-member-item__thumb-wrap c-mask" data-scroll-member="mask">
+                                        <div class="c-member-item__thumb" data-scroll-member="thumb">
+                                            <img decoding="async" loading="lazy" src="pic/NAOTIN_tapioka.webp" alt="NAOTIN_tapioka" width="1020" height="1360" class="is-fit" oncontextmenu="return false;">
+                                        </div>
+                                    </div>
+                                    <div class="c-member-item__wrap" data-scroll-member="wrap">
+                                        <p class="c-member-item__post">
+                                            STAFF                    </p>
+                                        <div class="c-member-item__names">
+                                            <h3 class="c-member-item__name">
+                                                NAOTIN_tapioka                            </h3>
+                                            <p class="c-member-item__name-en">
+                                                NAOTIN_tapioka                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </archive>
+                            <archive class="c-member-item swiper-slide" data-scroll-member="item">
+                                <a href="" class="c-member-item__link">
+                                    <div class="c-member-item__thumb-wrap c-mask" data-scroll-member="mask">
+                                        <div class="c-member-item__thumb" data-scroll-member="thumb">
+                                            <img decoding="async" loading="lazy" src="pic/Necnion8.webp" alt="Necnion8" width="1020" height="1360" class="is-fit" oncontextmenu="return false;">
+                                        </div>
+                                    </div>
+                                    <div class="c-member-item__wrap" data-scroll-member="wrap">
+                                        <p class="c-member-item__post">
+                                            DEVELOPER                    </p>
+                                        <div class="c-member-item__names">
+                                            <h3 class="c-member-item__name">
+                                                Necnion8                            </h3>
+                                            <p class="c-member-item__name-en">
+                                                Necnion8                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </archive>
+                            <archive class="c-member-item swiper-slide" data-scroll-member="item">
+                                <a href="" class="c-member-item__link">
+                                    <div class="c-member-item__thumb-wrap c-mask" data-scroll-member="mask">
+                                        <div class="c-member-item__thumb" data-scroll-member="thumb">
+                                            <img decoding="async" loading="lazy" src="pic/xHuwaly_.webp" alt="[JP]xHuwaly_" width="1020" height="1360" class="is-fit" oncontextmenu="return false;">
+                                        </div>
+                                    </div>
+                                    <div class="c-member-item__wrap" data-scroll-member="wrap">
+                                        <p class="c-member-item__post">
+                                            STAFF                    </p>
+                                        <div class="c-member-item__names">
+                                            <h3 class="c-member-item__name">
+                                                [JP]xHuwaly_                            </h3>
+                                            <p class="c-member-item__name-en">
+                                                xHuwaly_                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </archive>
+
+                        </div>
+                    </div>
+
+                    <div class="c-member-arrow c-member-arrow--prev" data-member-arrow="prev">
+                        <div class="c-member-arrow__wrap" data-member-arrow="wrap">
+                            <button class="c-member-arrow__icon c-member-arrow__icon--prev" aria-label="prev">
+
+                                <desc>prev</desc>
+                                <path class="c-member-arrow__path" d="M2389.732-1674.29l-.808.868,3.642,3.385h-15.927v1.186h15.929l-3.644,3.387.808.868,5.213-4.847Z" transform="translate(-2376.639 1674.29)" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="c-member-arrow c-member-arrow--next" data-member-arrow="next">
+                        <div class="c-member-arrow__wrap" data-member-arrow="wrap">
+                            <button class="c-member-arrow__icon c-member-arrow__icon--next" aria-label="next">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="c-member-arrow__svg" viewBox="0 0 18.306 9.694">
+                                    <desc>next</desc>
+                                    <path class="c-member-arrow__path" d="M2389.732-1674.29l-.808.868,3.642,3.385h-15.927v1.186h15.929l-3.644,3.387.808.868,5.213-4.847Z" transform="translate(-2376.639 1674.29)" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div></div>
+        </section>
+
+        <section class="p-home-project">
+            <div class="p-home-project__heading-en-bg" data-parallax data-parallax-speed="-0.2">
+                <div class="c-heading-en-bg" data-scroll>
+                    <div class="c-heading-en-bg__texts" data-split-text data-split-text-type="bg" id="news">
+                        NEWS        </div>
+                </div>
+            </div>
+            <div class="p-home-project__list">
+                <div class="p-home-project__item p-home-project__item--heading">
+                    <h3 class="c-heading-en" data-scroll data-split-text>
+
+                    </h3>
+                </div>
+                <div class="p-home-project__item p-home-project__item--body">
+                    <archive class="c-project-item" data-scroll="project">
+                        <a href="https://www.battle-earth.net/news/1/" class="c-project-item__link" data-scroll-project="link">
+                            <div class="c-project-item__thumb-wrap c-mask" data-scroll-project="mask">
+                                <div class="c-project-item__thumb" data-scroll-project="thumb">
+                                    <img decoding="async" src="pic/news-1.png" alt="" role="none" class="is-fit" oncontextmenu="return false;">
+                                </div>
+                            </div>
+                            <div class="c-project-item__body" data-scroll-project="body">
+                                <h4 class="c-project-item__name">
+                                    Battle Earth開始                    </h4>
+                            </div>
+
+                            <div class="c-project-item__circle-button" data-scroll-project="button">
+                                <div class="c-circle-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.515 16.08" class="c-circle-button__svg">
+                                        <desc>arrow</desc>
+                                        <path class="c-circle-button__path" d="M11.5,0l-.71.763,3.2,2.974H0V4.777H13.991l-3.2,2.975.71.763L16.08,4.258Z" transform="translate(0 16.08) rotate(-90)" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </a>
+                    </archive>
+                    <div class="p-home-project__button" data-scroll>
+                        <a class="c-more-button" href="https://www.battle-earth.net/news/">
+                            <div class="c-more-button__inner">
+                                <p class="c-more-button__text">
+                                    View More            </p>
+                                <div class="c-more-button__icon">
+                                    <svg class="c-more-button__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.694 5.133">
+                                        <desc>arrow</desc>
+                                        <path class="c-more-button__path" d="M2383.572-1674.29l-.428.46,1.928,1.793h-8.434v.628h8.435l-1.93,1.793.428.46,2.76-2.566Z" transform="translate(-2376.639 1674.29)" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="p-home-status">
+            <div class="p-home-status__heading-en-bg" data-parallax data-parallax-speed="-0.2">
+                <div class="c-heading-en-bg" data-scroll>
+                    <div class="c-heading-en-bg__texts" data-split-text data-split-text-type="bg">
+                        STATUS        </div>
+                </div>
+            </div>
+            <div class="p-home-contact__inner">
+                <div class="p-home-contact__wrap">
+                    <h2 class="p-home-status__body">
+                        サーバーに入れない！？<br class="windowsize">サーバーから強制退出された！？<br>
+                        なんてことはステータスを見ましょう！リアルタイムで表示されています。ぜひご活用ください！
+                    </h2>
+                </div>
+            </div>
+            <div class="p-home-status__button">
+                <a class="c-more-button" href="https://status.battle-earth.net">
+                    <div class="c-more-button__inner">
+                        <p class="c-more-button__text">
+                            View Status            </p>
+                        <div class="c-more-button__icon">
+                            <svg class="c-more-button__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.694 5.133">
+                                <desc>arrow</desc>
+                                <path class="c-more-button__path" d="M2383.572-1674.29l-.428.46,1.928,1.793h-8.434v.628h8.435l-1.93,1.793.428.46,2.76-2.566Z" transform="translate(-2376.639 1674.29)" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section class="p-home-contact">
+            <div class="p-home-contact__heading-en-bg" data-parallax data-parallax-speed="-0.2">
+                <div class="c-heading-en-bg" data-scroll>
+                    <div class="c-heading-en-bg__texts" data-split-text data-split-text-type="bg">
+                        CONTACT        </div>
+                </div>
+            </div>
+            <div class="p-home-contact__inner">
+                <div class="p-home-contact__wrap">
+                    <h2 class="p-home-contact__body" text-align="center">
+                        お問い合わせはDiscordの<br class="windowsize">お問い合わせチャンネル<br>
+                        または下のページよりお願いします。<br>
+                    </h2>
+                    <div class="p-home-contact__button">
+                        <a class="c-more-button" href="https://www.battle-earth.net/contact">
+                            <div class="c-more-button__inner">
+                                <p class="c-more-button__text">
+                                    Contact Page            </p>
+                                <div class="c-more-button__icon">
+                                    <svg class="c-more-button__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.694 5.133">
+                                        <desc>arrow</desc>
+                                        <path class="c-more-button__path" d="M2383.572-1674.29l-.428.46,1.928,1.793h-8.434v.628h8.435l-1.93,1.793.428.46,2.76-2.566Z" transform="translate(-2376.639 1674.29)" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+
+
+</div>
+<footer class="l-footer" data-footer>
+    <div class="l-footer__boxs">
+        <div class="l-footer__box l-footer__box--about">
+            <a href="https://www.battle-earth.net" class="l-footer__logo">
+                <img src="pic/icon-s66.png" alt="icon" oncontextmenu="return false;">
+            </a>
+            <p class="l-footer__copyright">
+                &copy; 2022 BattleEarth All Rights Reseraved.<br>Contact：contact@battle-earth.net
+            </p>
+        </div>
+        <div class="l-footer__box footer__box--nav">
+            <ul class="l-footer__list">
+                <li class="l-footer__item">
+                    <a href="https://map.battle-earth.net" class="l-footer__link">
+                        <div class="l-footer__inner">
+                            <p class="l-footer__text">
+                                Map
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="l-footer__item">
+                    <a href="#staff" class="l-footer__link">
+                        <div class="l-footer__inner">
+                            <p class="l-footer__text">
+                                Staff
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="l-footer__item">
+                    <a href="#service" class="l-footer__link">
+                        <div class="l-footer__inner">
+                            <p class="l-footer__text">
+                                Service
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="l-footer__item">
+                    <a href="https://www.battle-earth.net/news/" class="l-footer__link">
+                        <div class="l-footer__inner">
+                            <p class="l-footer__text">
+                                News
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="l-footer__item">
+                    <a href="https://www.battle-earth.net/docs/" class="l-footer__link">
+                        <div class="l-footer__inner">
+                            <p class="l-footer__text">
+                                Docs
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="l-footer__item">
+                    <a href="https://status.battle-earth.net" class="l-footer__link">
+                        <div class="l-footer__inner">
+                            <p class="l-footer__text">
+                                Status
+                            </p>
+                        </div>
+                    </a>
+                <li class="l-footer__item">
+                    <a href="https://twitter.com/battle_server" class="l-footer__link">
+                        <div class="l-footer__inner">
+                            <p class="l-footer__text">
+                                Twitter
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="l-footer__item">
+                    <a href="https://discord.com/invite/dnZ3z8beW2" class="l-footer__link">
+                        <div class="l-footer__inner">
+                            <p class="l-footer__text">
+                                Discord
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="l-footer-pagetop">
+                    <a href="#top" class="l-footer-pagetop__link">
+                        <div class="l-footer-pagetop__icon">
+                            <svg class="l-footer-pagetop__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.515 16.08" aria-label="page top">
+                                <desc>page top</desc>
+                                <path class="l-footer-pagetop__path" d="M11.5,0l-.71.763,3.2,2.974H0V4.777H13.991l-3.2,2.975.71.763L16.08,4.258Z" transform="translate(0 16.08) rotate(-90)" />
+                            </svg>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
